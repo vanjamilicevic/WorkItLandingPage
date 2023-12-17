@@ -504,4 +504,18 @@ span {
   .founder-section {
     margin-top: 20px;
   }
+
+  .founder-description {
+    text-align: center;
+    align-items: center;
+  }
+
+  .founder-title {
+    margin-bottom: 20px;
+    line-height: 50px;
+  }
+
+  .founder-button {
+    margin-bottom: 10px;
+  }
 }
