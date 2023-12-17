@@ -1,0 +1,507 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900");
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,200;0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,100;1,9..144,200;1,9..144,300;1,9..144,400&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  background-repeat: no-repeat;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.header-and-content-wrapper {
+  width: 100vw;
+  background-color: #fcf8ff;
+  border-bottom-left-radius: 50% 7%;
+  border-bottom-right-radius: 50% 7%;
+  overflow-x: hidden;
+}
+
+.header {
+  background-color: #24053e;
+  width: 100%;
+  margin: 0;
+  border-bottom-left-radius: 50% 7%;
+  border-bottom-right-radius: 50% 7%;
+  position: relative;
+}
+
+.workit-and-apply {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+.header-link-container {
+  border-bottom: 2px solid #44FFA1;
+}
+
+.link {
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 2px;
+    transition: all 1s ease;
+}
+
+.link:hover {
+  color: #44FFA1;
+  cursor: pointer;
+}
+
+.title-and-bg-images {
+  display: flex;
+  width: 600px;
+  margin: auto;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.title {
+  font-family: "Fraunces";
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 80px;
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+span {
+  text-decoration: underline;
+  text-decoration-color: #44FFA1;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 10px;
+}
+
+.button {
+  box-sizing: border-box;
+  background-color: #44FFA1;
+  border: 2px solid #44FFA1;
+  color: #24053e;
+  padding: 20px;
+  font-weight: 800;
+  font-size: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  transition: all 1s ease;
+}
+
+.button:hover {
+  display: inline-block;
+  color: #44FFA1;
+  background-color: #24053e;
+  cursor: pointer;
+}
+
+.big-pattern {
+  position: absolute;
+  top: 120px;
+  left: -138px;
+}
+
+.small-pattern {
+  position: absolute;
+  top: 333px;
+  right: -48px;
+}
+
+.phone-image-container {
+  width: 720px;
+  margin: auto;
+}
+
+.phone-image {
+  width: 770px;
+  margin-bottom: -180px;
+}
+
+.one-two-three-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  margin-top: 250px;
+  margin-bottom: 80px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #24053e;
+  margin-bottom: 50px;
+  justify-content: flex-start;
+}
+
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-family: "Fraunces";
+  font-size: 23px;
+  font-weight: 500;
+  border: 1px solid #24053e;
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.card-title {
+  font-family: "Fraunces";
+  font-size: 32px;
+  font-weight: 800;
+  letter-spacing: -1.3px;
+}
+
+.card-text {
+  color: #584D62;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.founder-section {
+  margin: auto;
+  position: relative;
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 210px;
+  margin-bottom: 200px;
+}
+
+.image-and-text-wrapper {
+  position: relative;
+  width: 65%;
+  margin-right: 0;
+}
+
+.founder-description {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  width: 100%;
+  background-color: #24053e;
+  color: white;
+  padding: 60px;
+  z-index: 6;
+}
+
+.founder-image-container {
+  position: absolute;
+  z-index: 5;
+  top: -178px;
+  left: -375px;
+}
+
+.image-founder {
+  width: 50%;
+  height: 50%;
+}
+
+.founder-title {
+  font-family: "Fraunces";
+  font-size: 56px;
+  margin: 0;
+  margin-bottom: 40px;
+  letter-spacing: -1px;
+  font-weight: 400;
+}
+
+.founder-text {
+  font-size: 18px;
+  margin: 0;
+  line-height: 32px;
+  margin-bottom: 40px;
+}
+
+.founder-bg-pattern {
+  position: absolute;
+  right: 70px;
+  bottom: -50px;
+}
+
+.footer {
+  width: 100%;
+  padding-bottom: 90px;
+}
+
+.dark-logo-wrapper {
+  width: min-content;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.fb-twitter-insta-wrapper {
+  width: min-content;
+  margin: auto;
+  display: flex;
+}
+
+.facebook-icon,
+.twitter-icon {
+  margin-right: 10px;
+}
+
+.icon {
+  fill: #584D62;
+  transition: all 1s ease;
+}
+
+.icon:hover {
+  fill: #24053e;
+  cursor: pointer;
+}
+
+/*-------------------Media queries-------------------*/
+
+/*Smaller screen*/
+@media only screen and (max-width: 1270px) {
+
+  .phone-image {
+    width: 600px;
+  }
+
+  .box {
+    max-width: 200px;
+  }
+
+  .founder-description {
+    padding: 40px;
+  }
+
+  .founder-title {
+    font-size: 46px;
+  }
+
+  .founder-image-container {
+    top: -163px;
+    left: -315px;
+  }
+
+  .image-founder {
+    width: 25em;
+    height: 25em;
+  }
+}
+
+/*Tablet design*/
+
+@media only screen and (max-width: 950px) {
+  .title {
+    letter-spacing: -3px;
+  }
+
+  .big-pattern {
+    top: 132px;
+    left: -210px;
+}
+
+  .small-pattern {
+    top: 333px;
+    right: -87px;
+  }
+
+  .phone-image-container {
+    width: min-content;
+  }
+
+  .phone-image {
+    width: 500px;
+  }
+
+  .one-two-three-container {
+    flex-direction: column;
+  }
+
+  .one-two-three-container {
+    width: 80%;
+    margin-bottom: 50px;
+  }
+
+  .circle {
+    margin: 0;
+  }
+
+  .box {
+    max-width: 100%;
+    flex-direction: row;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+
+  .founder-section {
+    margin-top: 300px;
+  }
+
+  .card-title {
+    margin: 0;
+  }
+
+  .card-text-container {
+    width: fit-content;
+    margin-left: 30px;
+  }
+
+  .founder-image-container {
+    top: -212px;
+    left: -151px;
+  }
+
+  .image-and-text-wrapper {
+    width: 80%;
+  }
+
+  .image-founder {
+    width: 18em;
+    height: 18em;
+  }
+
+  .founder-text {
+    font-size: 16px;
+  }
+
+  .founder-bg-pattern {
+    right: 24px;
+    bottom: -101px;
+  }
+
+  .founder-button {
+    letter-spacing: -1px;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+  }
+}
+
+/*Mobile design*/
+
+@media only screen and (max-width: 680px) {
+  .workit-and-apply {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .title-and-bg-images {
+    width: 70%;
+  }
+
+  .title {
+    font-size: 56px;
+    line-height: 60px;
+    font-weight: 500;
+  }
+
+  .big-pattern {
+    display: none;
+  }
+
+  .small-pattern {
+    display: none;
+  }
+
+  .button {
+    padding: 15px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 18px;
+  }
+
+  .phone-image-container {
+    width: 80%;
+  }
+
+  .phone-image {
+    width: 100%;
+  }
+
+  .box {
+    flex-direction: column;
+    margin-bottom: 110px;
+  }
+
+  .card-text-container {
+    margin: 0;
+    text-align: center;
+  }
+
+  .circle-wrapper {
+    margin-bottom: 20px;
+  }
+
+  .founder-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    width: 96%;
+  }
+
+  .founder-image-container {
+    position: relative;
+    top: 55px;
+    left: 0;
+    width: min-content;
+  }
+
+  .image-and-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .founder-bg-pattern {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+
+  .header-and-content-wrapper {
+    border-bottom-left-radius: 65% 2%;
+    border-bottom-right-radius: 63% 2%;
+  }
+  .title-and-bg-images {
+    margin-bottom: 80px;
+  }
+
+  .phone-image {
+    margin-bottom: -100px;
+  }
+
+  .one-two-three-container {
+    margin-top: 150px;
+    margin-bottom: 10px;
+  }
+
+  .three-container {
+    margin-bottom: 15px;
+  }
+
+  .box {
+    height: fit-content;
+  }
+
+  .founder-section {
+    margin-top: 20px;
+  }
+}
